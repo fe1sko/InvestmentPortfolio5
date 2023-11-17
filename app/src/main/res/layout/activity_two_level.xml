@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoLevelActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="376dp"
+        android:layout_height="418dp"
+        android:layout_marginTop="184dp"
+        android:text="Средний уровень портфеля предназначен для людей кто уже имеет какой-то опыт и какое-то понятие в мире инвестиций и бюджет больше чем у начинающего инвестора. До 1 миллиона рублей и обязательно опыт не менее чем 2-3 года. В этот портфель входят те же самые сбербанк, московская биржа, и золото. Но помимо этого есть ещё то что можно взять в портфель:
+1)Банк Санкт-Петербург(249Р за одну акцию) - очень перспективный банк, имеет все шансы ворваться в топ 5 банков РФ в ближайшем будущем на ряду с такими гигантами как сбербанк, тинькофф, альфа-банк и т.д.
+2)Озон(2700Р) за одну акцию) - Озон опережает вайлдберриз как минимум тем что Озон торгует своими акциями и фьючерсами, очень большой потенциал в будущем быть не только банком и интернет магазином но вообще влиться в жизнь гражданина РФ как сбер. Сбер - это банк, доставка продуктов(питания, бытовых и вообще всех продуктов в магазинах), интернет магазин, сервис для прослушивания музыки и многое другое. Озон имеет такие же шансы.
+3)Positive Technologies(2117Р за одну акцию) - единственная компания которая не ушла из РФ из-за санкций против РФ и в итоге заработали рекордную прибыль и выплачивали инвесторам рекордные дивиденды."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="183dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:onClick="buttonSendClick16"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="62dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sber" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gold" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="89dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moex" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="161dp"
+        android:layout_height="101dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/ozon" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="85dp"
+        android:layout_height="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bankspb" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="142dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:srcCompat="@drawable/pt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneLevelActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="388dp"
+        android:layout_height="397dp"
+        android:text="Начальный уровень портфеля. Представляет из себя портфель для начинающего инвестора как и в бюджетном плане, так и в плане занний в мире инвестиций. Портфель собран будет для людей у кого сумма инвестиций меньше чем 100 тысяч рублей. И так, в наш портфель новичка входит:
+1)Сбербанк (282Р за одну акцию) - самый надежный и самый большой банк в РФ, известен за рубежом, существует в странах СНГ и регулярные дивиденды(выплата определённой суммы за каждую их акцию за лояльность и удержание их акций в портфеле).
+2)Московская Биржа(202Р за одну акцию) - весь росссийский рынок в одной акции, очень надежный продукт который в будущем покажет результаты которые порадуют любого инвестора.
+3)Золото(5623Р за один грамм). Золото это то что никогда не подешевеет за большой промежуток времени. Пока люди не научились делать золоты из воды, её цена стремительно вверх будет расти."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="120dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sber" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="135dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="112dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moex" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="196dp"
+        android:layout_height="72dp"
+        android:text="Назад"
+        android:onClick="buttonSendClick15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

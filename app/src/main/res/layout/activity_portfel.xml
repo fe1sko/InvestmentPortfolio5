@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PortfelActivity">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="221dp"
+        android:layout_height="63dp"
+        android:onClick="buttonSendClick18"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="185dp"
+        android:layout_height="69dp"
+        android:onClick="buttonSendClick12"
+        android:text="Начальный"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="187dp"
+        android:layout_height="65dp"
+        android:onClick="buttonSendClick13"
+        android:text="Средний"
+        app:layout_constraintEnd_toEndOf="@+id/imageView25"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="221dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:onClick="buttonSendClick14"
+        android:text="Профессиональный"
+        android:textSize="5pt"
+        app:layout_constraintEnd_toEndOf="@+id/imageView26"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="197dp"
+        android:layout_height="97dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/one" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="172dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        app:srcCompat="@drawable/two" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="210dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/three" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

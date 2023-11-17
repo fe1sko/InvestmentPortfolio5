@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeLevelActivity">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="182dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="buttonSendClick17"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sber" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="56dp"
+        android:layout_height="41dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:srcCompat="@drawable/gold" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="55dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moex" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="107dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView35"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ozon" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView35"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toBottomOf="@+id/imageView35"
+        app:srcCompat="@drawable/bankspb" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="59dp"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/tinkoff" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="116dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lucoil" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="111dp"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:srcCompat="@drawable/china" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="391dp"
+        android:layout_height="479dp"
+        android:text="Третий уровень портфеля. Самый профессиональный. Для инвесторов с бюджетом более 1 миллиона рублей а так же с опытом не менее чем 5 лет. В этот портфель входит всё то же самое что во всех предыдущих портфелях и еще вот эти акции:
+    1)Лукойл(7232Р за одну акцию)- Один из крупнейших российских нефтяных компаний, долго лет уже демонстрируют высокое качество разного топлива(АИ-92, АИ-95, ДТ и другие) а так же щедро платят дивиденды.
+    2)Тинькофф банк(3433Р за одну акцию)- Один из крупнейших банков РФ а так же известен в странах СНГ, причем банк частный, дивидендами не радуют своих инвесторов, однако у них рост акций такой большой и стабильный что покрывает отсутствие этих самых дивидендов. Имеет шансы превратиться в масштабный проект как Сбер(так же как и озон и яндекс которые медленно, но верно вливаются в жизнь гражданина РФ в абсолютно любую сферу, хотя изначально все эти компании не были нацелены на это).
+    3)Юань(12Р за одну такую единицу китайской валюты)- Китайская валюта очень надёжная и растущая, её ещё называют китайским долларом. Однако в отличие от Американского доллара, Китай не грозился санкциями РФ, поэтому покупать их валюту можно без страха, что-то на подобии заморозки активов инностраных акций, валют, фьючерсов и так далее. "
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/positive" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
